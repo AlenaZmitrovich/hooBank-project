@@ -1,0 +1,41 @@
+.footer{
+    padding: $p-4;
+    padding-top: $p-10;
+
+    &__first{
+        @include flex();
+    }
+
+    &__links{
+        @include flex();
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__title{
+        color: $color-green;
+        font-size: $font-24;
+    }
+
+    &__link{
+        color: $color-white;
+        font-size: $font-14;
+        margin-top: $m-5;
+    }
+
+    &__second{
+        @include flex();
+        justify-content: space-around;
+        padding-top: $p-10;
+    }
+
+    &__copyright{
+        color: $color-blue;
+        font-size: $font-14;
+        letter-spacing: .1rem;
+    }
+
+    &__social{
+        margin-left: $m-3;
+    }
+}

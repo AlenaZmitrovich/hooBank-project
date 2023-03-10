@@ -39,7 +39,6 @@ body {
         font-size: $font-24;
         text-align: center;
         color: $color-green;
-
     }
 
     &-description {
@@ -51,5 +50,23 @@ body {
         line-height: 1.3;
 
         color: $color-blue;
+    }
+}
+
+.logo{
+    @include flex();
+
+    &-title {
+        @include transition();
+        padding-left: $p-1;
+
+        color: $color-white;
+        font-weight: $font-w-500;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-green;
+            text-decoration: none;
+        }
     }
 }
