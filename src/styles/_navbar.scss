@@ -1,4 +1,5 @@
 .navbar{
+    flex-direction: column;
 
     &__lists {
         @include flex();
